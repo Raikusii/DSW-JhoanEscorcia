@@ -1,6 +1,6 @@
 body{
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif
 
 }
 
@@ -12,8 +12,8 @@ body{
 
 #header {
     margin: auto;
-    width: 500px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1320px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 ul, ol {
@@ -47,9 +47,10 @@ ul, ol {
 }
 
 .titulo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
+    margin: auto;
+    width: 1320px;
+    font-family: 'Times New Roman', Times, serif
+    
 }
 
 .tabla{
@@ -58,9 +59,77 @@ ul, ol {
 }
 
 .subtitulo {
-    text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 28px;
-    background-color: #005883;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif
+   
+}
+
+.footer{
+    width: 100%;
+    background-color:#005883;
+    color: white;
+}
+
+.container-footer-all
+{
+    max-width: 1300px;
+    margin: auto;
+    background-color:#005883;
     color: #ffffff;
+    padding: 40px;
+    
+}
+
+.container-body
+{
+    background-color:#005883;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flex;
+}
+
+.colum1
+{
+    max-width: 400px;
+
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.container-footer
+{
+    max-width: 1320px;
+    background-color:#005883;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.copyright
+{
+    color: white;
+}
+
+.copyright a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a
+{
+    text-decoration: none;
+    color: white;
 }
